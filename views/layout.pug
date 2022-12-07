@@ -10,11 +10,11 @@
 
 - var MEASUREMENT_ID = "G-M7X1SYCNM6"
 - var cardImg = (login) ? avatarUrl : 'images/screenshot.png'
-- var websiteName = 'Gitvio'
+- var websiteName = 'vu-GitHubstats'
 - var description = 'Create beautiful Portfolio from your GitHub'
 - var title = (login) ? `${login} - Github Profile` : ((status) ? `Error - ${status}` : websiteName ) 
-- var currentUrl = 'https://gitvio.vercel.app/'
-- var footer = `If you like it Please give it a star on <a href="https://github.com/devXprite/GitVio">GitHub</a>`
+- var currentUrl = 'https://vu-githubstats.vercel.app/'
+- var footer = `If you like it Please give it a star on <a href="https://github.com/uvacoder/uva-view-my-github">GitHub</a>`
 
 doctype html
 html(lang="en")
@@ -54,7 +54,7 @@ html(lang="en")
       window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', "#{MEASUREMENT_ID}");
   body
     div#particles-js
-    a.github-corner(href='https://github.com/devXprite/GitVio' aria-label='View source on GitHub')!= githubCorner
+    a.github-corner(href='https://github.com/uvacoder/uva-view-my-github' aria-label='View source on GitHub')!= githubCorner
     block content
     footer
       p!= footer 
