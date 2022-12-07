@@ -6,7 +6,7 @@ const router = express.Router();
 /* GET home page. */
 router.get("/", async (req, res) => {
   res.render("index", {
-    title: "GitVio",
+    title: "vu-GitHubstats",
     description: "Generate beautiful portfolios from your GitHub profile",
     recentProfiles: await recentProfiles(),
   });
