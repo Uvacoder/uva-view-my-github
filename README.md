@@ -93,7 +93,7 @@ Don't forget to give the project a Star ⭐! Thanks again!
 1. Fork the Project
 2. Create your New Branch 
 3. Commit your Changes 
-4. Push to the Branch 
+4. Push to the
 5. Open a Pull Request
 
 
